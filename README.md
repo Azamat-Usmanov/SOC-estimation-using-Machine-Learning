@@ -37,8 +37,18 @@ Two neural architectures were implemented:
 
 ## Results  
 ### 1. True vs. Predicted SoC  
-![5252](plots/true_soc_vs_prediction/dnn_on_lg_data.png)  
-WWWWWWWW
+![](plots/true_soc_vs_prediction/dnn_on_lg_data.png)  
+**Pic1: A DNN trained on LG dataset.
+
+![](plots/true_soc_vs_prediction/lstm_on_lg_data.png)  
+**Pic2: A LSTM trained on LG dataset. 
+
+![](plots/true_soc_vs_prediction/dnn_on_panasonic_data.png)  
+**Pic3: A DNN trained on Panasonic dataset. 
+
+![](plots/true_soc_vs_prediction/lstm_on_panasonic_data.png)  
+**Pic4: A LSTM trained on Panasonic dataset. 
+
 ### 2. Model Performance Comparison  
 ![Model Performance Comparison](plots/models_comperison_table.png)
 
