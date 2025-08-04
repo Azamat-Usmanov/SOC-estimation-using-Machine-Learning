@@ -7,7 +7,7 @@ This project focuses on estimating the State of Charge (SoC) of lithium-ion batt
 ## Repository Structure  
 - `data_processing/`: Data preprocessing scripts and analyse
 - `datasets/`: Processed and raw datasets
-- `training_and_testing/`: Model training and evaluation
+- `training_and_testing/`: Models training and evaluation
 - `inference/`: Models testing on custom data  
 - `plots/`: Performance comparison plots  
 - `README.md`
