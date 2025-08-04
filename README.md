@@ -5,13 +5,13 @@ This project focuses on estimating the State of Charge (SoC) of lithium-ion batt
 - **Panasonic 18650PF Li-ion Battery Data** ([Link](https://data.mendeley.com/datasets/wykht8y7tg/1))  
 
 ## Repository Structure  
-`data_processing/`: Data preprocessing scripts and analyse
-`datasets/`: Processed and raw datasets
-`training_and_testing/`: Model training and evaluation
-`inference/`: Models testing on custom data  
-`plots/`: Performance comparison plots  
-`README.md`
-`requirements.txt`  
+- `data_processing/`: Data preprocessing scripts and analyse
+- `datasets/`: Processed and raw datasets
+- `training_and_testing/`: Model training and evaluation
+- `inference/`: Models testing on custom data  
+- `plots/`: Performance comparison plots  
+- `README.md`
+- `requirements.txt`  
 
 
 ## Datasets  
