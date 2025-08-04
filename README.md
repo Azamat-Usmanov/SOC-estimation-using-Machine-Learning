@@ -5,30 +5,13 @@ This project focuses on estimating the State of Charge (SoC) of lithium-ion batt
 - **Panasonic 18650PF Li-ion Battery Data** ([Link](https://data.mendeley.com/datasets/wykht8y7tg/1))  
 
 ## Repository Structure  
-├── data_processing/                # Data preprocessing scripts and analyse  
-│   ├── lg/                         # Processing for LG dataset
-│   ├── panasonic/                  # Processing for Panasonic dataset (+ MAT to CSV conversion)  
-│  
-├── datasets/                       # Processed and raw datasets  
-│   ├── LG/  
-│   │   ├── raw/                    # Raw LG data  
-│   │   ├── parsed/                 # Parsed LG data  
-│   │   └── precessed/              # Processed LG data  
-│   │  
-│   └── Panasonic/  
-│       ├── raw/                    # Raw Panasonic data  
-│       ├── parsed/                 # Parsed Panasonic data  
-│       └── processed/              # Processed Panasonic data
-│  
-├── training_and_testing/           # Model training and evaluation  
-│   ├── for_lg_data/                # DNN & LSTM trained on LG data (+ weights)  
-│   └── for_panasonic_data/         # DNN & LSTM trained on Panasonic data (+ weights)  
-│  
-├── inference/                      # Models testing on custom data  
-│  
-├── plots/                          # Performance comparison plots  
-│  
-└── README.md  
+`data_processing/`: Data preprocessing scripts and analyse
+`datasets/`: Processed and raw datasets
+`training_and_testing/`: Model training and evaluation
+`inference/`: Models testing on custom data  
+`plots/`: Performance comparison plots  
+`README.md`
+`requirements.txt`  
 
 
 ## Datasets  
