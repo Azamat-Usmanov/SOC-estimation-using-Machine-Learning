@@ -73,6 +73,14 @@ Two neural architectures were implemented:
 ![](plots/lg_vs_panasonic_models/dnn_model_on_panasonic/lg_0degC_HWFET.png)
 ![](plots/lg_vs_panasonic_models/lstm_model_on_panasonic/lg_40degC_US06.png)
 
+**Computational complexity of the models**:
+| Model  | Dataset   | KFLOPs  |
+|:-------|:----------|:--------|
+|  DNN   |   LG      | 17      |
+| LSTM   |   LG      | 445     |
+| DNN    |  Panasonic| 1429    |
+| LSTM   | Panasonic |  924    |
+
 **Key Observations**:  
 - LSTM outperforms DNN due to its ability to capture temporal dependencies
 - Both models show higher errors at extreme temperatures (e.g., -20°C)
