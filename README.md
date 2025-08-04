@@ -37,7 +37,7 @@ Two neural architectures were implemented:
 
 ## Results  
 ### 1. True vs. Predicted SoC  
-![True vs Predicted SoC](plots/true_soc_vs_prediction/dnn_on_lg_data.png)  
+plots/true_soc_vs_prediction/dnn_on_lg_data.png
 
 ### 2. Model Performance Comparison  
 ![Model Performance Comparison](plots/models_comperison_table.png)
