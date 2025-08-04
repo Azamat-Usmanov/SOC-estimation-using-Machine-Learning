@@ -38,22 +38,40 @@ Two neural architectures were implemented:
 ## Results  
 ### 1. True vs. Predicted SoC  
 ![](plots/true_soc_vs_prediction/dnn_on_lg_data.png)  
-**Pic1: A DNN trained on LG dataset.
+**Pic1: A DNN trained on LG dataset.**
 
 ![](plots/true_soc_vs_prediction/lstm_on_lg_data.png)  
-**Pic2: A LSTM trained on LG dataset. 
+**Pic2: A LSTM trained on LG dataset.**
 
 ![](plots/true_soc_vs_prediction/dnn_on_panasonic_data.png)  
-**Pic3: A DNN trained on Panasonic dataset. 
+**Pic3: A DNN trained on Panasonic dataset.** 
 
 ![](plots/true_soc_vs_prediction/lstm_on_panasonic_data.png)  
-**Pic4: A LSTM trained on Panasonic dataset. 
+**Pic4: A LSTM trained on Panasonic dataset.**
 
-### 2. Model Performance Comparison  
-![Model Performance Comparison](plots/models_comperison_table.png)
+### 2. Qualitative comparison with true labels  
+![](plots/dnn_model_on_lg_data/0degC_UDDS.png)
+**Pic5: UDDS cycle, 0degC, DNN model trained on LG dataset**
 
-### 3. DNN model on LG test data  
-![DNN model on LG test data](plots/dnn_model_on_lg_data/0degC_UDDS.png)  
+![](plots/lstm_model_on_lg_data/n20degC_US06.png)
+**Pic6: US06 cycle, -20degC, LSTM model trained on LG dataset**
+
+![](plots/dnn_model_on_panasonic_data/25degC_LA92.png)
+**Pic7: LA92 cycle, 25degC, DNN model trained on Panasonic dataset**
+
+![](plots/lstm_model_on_panasonic_data/25degC_US06.png)
+**Pic8: US06 cycle, 25degC, LSTM model trained on Panasonic dataset**
+
+### 3. Model Performance Comparison  
+![](plots/models_comperison_table.png)
+
+### 4. Testing of Panasonic data on a DNN/LSTM models that were trained on an LG dataset
+![](plots/lg_vs_panasonic_models/dnn_model_on_lg/pan_10degC_UDDS.png)
+![](plots/lg_vs_panasonic_models/lstm_model_on_lg/pan_25degC_Cycle_1.png)
+
+### 5. Testing of LG data on a DNN/LSTM models that were trained on a Panasonic dataset
+![](plots/lg_vs_panasonic_models/dnn_model_on_panasonic/lg_0degC_HWFET.png)
+![](plots/lg_vs_panasonic_models/lstm_model_on_panasonic/lg_40degC_US06.png)
 
 **Key Observations**:  
 - LSTM outperforms DNN due to its ability to capture temporal dependencies
